@@ -1,0 +1,405 @@
+.numbers{
+    background-color: #a82d49;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.numbers .row{
+    margin: 15px 0px;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: white;
+}
+.numbers h6{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Tajawal';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/**/
+
+.pridev, .ingredients{
+    background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.pride img,
+.ingredients img
+{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pride h2 , 
+.ingredients h2,
+.paralex h2 {
+    font-size: 50px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px 0px;
+    color: #77132b;
+    font-family: 'Tajawal';
+    line-height: 50px;
+}
+.pride p,
+.ingredients p,
+.paralex p
+{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: 'Tajawal';
+   margin-top: 15px;
+}
+.pride button,
+.ingredients button
+{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.pride button a,
+.ingredients button a
+{
+    display: block;
+    color: white;
+    font-family: 'Tajawal';
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pride button:hover a,
+.ingredients button:hover a
+{
+    color: #77132b;
+    transition: .2s ease;
+}
+.pride button:hover,
+.ingredients button:hover
+{
+    background-color: #fff;
+}
+/*Start css to the ingredients section*/
+.ingredients ul{
+    padding: 0px;
+}
+.ingredients ul li{
+    list-style-type: square;
+    font-family: 'Tajawal';
+    color: #333;
+    margin-top: 10px;
+}
+
+/*start section paralex*/
+
+.paralex{
+    background: url('../../assets/1.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+.paralex .row{
+    margin: 50px 0px;
+}
+.paralex h2{
+    width: 100%;
+    margin: 20px 0px;
+}
+.paralex p{
+    color: #444;
+    margin: 20px 0px;
+    line-height: 32px;
+}
+.paralex a{
+    color: #77132b;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family: 'Tajawal';
+    text-decoration: none !important;
+}
+
+.blogs{
+    margin-top: 50px;
+    padding: 25px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.blogs .row:first-child{
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.blogs h2{
+    font-size: 45px;
+    font-weight: bold;
+    width: 100%;
+    margin: 10px 0px;
+    color: #77132b;
+    font-family: 'Tajawal';
+    line-height: 50px;
+}
+
+.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.blogs img{
+    max-width: 100%;
+}
+
+.blogs h5{
+    color: #77132b;
+    font-family: 'Tajawal'; 
+    font-size: 15px 0px;
+}
+
+.blogs .box span{
+    display: block;
+    color: #444;
+    font-family: "Tajawal";
+    font-size: 16px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blogs .box h6{
+    color: #a82d49;
+    font-size: 22px;
+    font-family: 'Tajawal';
+}
+
+.blogs button {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color: #740c24;
+    border: 1px solid #740c24;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    transition: .3s ease-in-out;
+}
+
+.blogs button a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Tajawal';
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+}
+
+.blogs button:hover{
+    background-color: transparent;
+}
+
+.blogs button:hover a{
+    color: #740c24;
+}
+/*start slider section*/
+
+.slider{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+.slider h2{
+    color: white;
+}
+.slider .carousel{
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 40px 0px;
+    padding: 25px 0px;
+}
+.slider .carousel p,h3{
+    color: #333;
+}
+.slider img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 150px;
+}
+
+.slider .carousel-option a{
+    color: #212121;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.slider .carousel-option span{
+    color: #77132b;
+    display: block;
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.slider .carousel-indicators{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.slider .carousel-indicators button{
+    width: 30px;
+    height: 10px;
+    background-color: #77132b;
+    border: 1px solid #77132b;
+    margin: 5px;
+}
+
+.faq{
+    padding: 25px 0px;
+}
+.faq h2, h4{
+    font-family: 'Tajawal';
+}
+.faq h4{
+    margin: 20px 0px;
+}
+.subscribe{
+    position: relative;
+    padding: 20px;
+}
+
+.subscribe .container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:991px){
+    .subscribe .container{
+        flex-direction: column;
+    }
+}
+
+.subscribe form{
+    display: flex;
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+}
+
+.subscribe form i{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    left: 25px;
+}
+
+.subscribe form input[type="email"]{
+    border: 1px solid white;
+    border-right: none;
+    background: none;
+    padding: 20px 20px 20px 60px;
+    width: calc(100% - 130px);
+}
+.subscribe form input[type="submit"]{
+    width: 130px;
+    background-color: #77132b;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-left: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Tajawal';
+    margin-left: 20px;
+}
+.subscribe form input[type="submit"]:hover{
+    background-color: white;
+    color: #77132b;
+    border: 1px solid #77132b;
+    font-weight: bold;
+    font-family: 'Tajawal';
+    transition: 0.5s ;
+}
+.subscribe form input[type="email"]:focus
+.subscribe form input[type="submit"]:focus {
+    outline: none;
+}
+.subscribe form ::placeholder{
+
+}
+
+.subscribe p{
+    line-height: 2;
+    margin-left: 50px;
+}
+
+@media(max-width: 991px){
+    .subscribe p{
+       margin: 30px 0 0;
+    }
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    padding: 20px 25px;
+    background-color: #a82d49;
+}
+
+footer .link a{
+    margin-left: 10px;
+    color: white;
+}
+
+footer .social i{
+    margin: 30px 10px;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+
+footer .link, .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
